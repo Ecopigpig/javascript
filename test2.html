@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" http-equiv="content-type" content="text/html;charset=gb2312">
+		<title>获取元素</title>
+		<!-- html 从上到下加载 -->
+	</head>
+	<body>
+		<h3>hello</h3>
+		<p id="con">I love javascript</p>
+		<script type="text/javascript">
+			var mye = document.getElementById("con");
+			//此处相当于输出一个变量，所以是[object HTMLParagraphElement]
+			document.write(mye);
+			// console.log(mye);
+		</script>
+	</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id = 'textDom'>JavaScript</p >
+    <script>
+        let myChar = document.getElementById('textDom');
+        console.log(myChar.innerHTML);
+    </script>
+</body>
+</html> -->
